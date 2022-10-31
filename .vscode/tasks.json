@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "MultiplayerPlugin Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiplayerPlugin",
+				"Win64",
+				"Debug",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPlugin Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiplayerPlugin",
+				"Win64",
+				"Debug",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiplayerPlugin Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPlugin Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiplayerPlugin",
+				"Win64",
+				"Debug",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPlugin Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiplayerPlugin",
+				"Win64",
+				"DebugGame",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPlugin Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiplayerPlugin",
+				"Win64",
+				"DebugGame",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiplayerPlugin Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPlugin Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiplayerPlugin",
+				"Win64",
+				"DebugGame",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPlugin Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiplayerPlugin",
+				"Win64",
+				"Development",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPlugin Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiplayerPlugin",
+				"Win64",
+				"Development",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiplayerPlugin Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPlugin Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiplayerPlugin",
+				"Win64",
+				"Development",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPlugin Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiplayerPlugin",
+				"Win64",
+				"Test",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPlugin Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiplayerPlugin",
+				"Win64",
+				"Test",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiplayerPlugin Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPlugin Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiplayerPlugin",
+				"Win64",
+				"Test",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPlugin Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiplayerPlugin",
+				"Win64",
+				"Shipping",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPlugin Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiplayerPlugin",
+				"Win64",
+				"Shipping",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiplayerPlugin Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPlugin Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiplayerPlugin",
+				"Win64",
+				"Shipping",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPluginEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiplayerPluginEditor",
+				"Win64",
+				"Debug",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPluginEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiplayerPluginEditor",
+				"Win64",
+				"Debug",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiplayerPluginEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPluginEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiplayerPluginEditor",
+				"Win64",
+				"Debug",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPluginEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiplayerPluginEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPluginEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiplayerPluginEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiplayerPluginEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPluginEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiplayerPluginEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPluginEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiplayerPluginEditor",
+				"Win64",
+				"Development",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPluginEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MultiplayerPluginEditor",
+				"Win64",
+				"Development",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiplayerPluginEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"label": "MultiplayerPluginEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MultiplayerPluginEditor",
+				"Win64",
+				"Development",
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\UnrealEngine\\UE_5.0"
+			}
+		}
+	]
+}

@@ -60,15 +60,15 @@ AMultiplayerPluginCharacter::AMultiplayerPluginCharacter()
 	{
 		OnlineSessionInterface = OnlineSubsystem->GetSessionInterface();
 
-		if (GEngine)
-		{
-			GEngine->AddOnScreenDebugMessage(
-				-1,
-				15.f,
-				FColor::Blue,
-				FString::Printf(TEXT("Found subsystem: %s"), *OnlineSubsystem->GetSubsystemName().ToString())
-			);
-		}
+		// if (GEngine)
+		// {
+		// 	GEngine->AddOnScreenDebugMessage(
+		// 		-1,
+		// 		15.f,
+		// 		FColor::Blue,
+		// 		FString::Printf(TEXT("Found subsystem: %s"), *OnlineSubsystem->GetSubsystemName().ToString())
+		// 	);
+		// }
 	}
 }
 
@@ -233,16 +233,6 @@ void AMultiplayerPluginCharacter::OnFindSessionsComplete(bool bWasSuccessful)
 		return;
 	}
 
-	if (GEngine)
-	{
-		GEngine->AddOnScreenDebugMessage(
-			-1,
-			15.f,
-			FColor::Cyan,
-			FString::Printf(TEXT("Result size: %i"), SessionSearch->SearchResults.Num())
-		);
-	}
-
 	for (auto Result : SessionSearch->SearchResults)
 	{
 		auto Id = Result.GetSessionIdStr();
@@ -263,16 +253,6 @@ void AMultiplayerPluginCharacter::OnFindSessionsComplete(bool bWasSuccessful)
 
 		if (MatchType == FString("FreeForAll"))
 		{
-			if (GEngine)
-			{
-				GEngine->AddOnScreenDebugMessage(
-					-1,
-					15.f,
-					FColor::Cyan,
-					FString::Printf(TEXT("Joining Match Type: %s"), *MatchType)
-				);
-			}
-
 			OnlineSessionInterface->AddOnJoinSessionCompleteDelegate_Handle(JoinSessionCompleteDelegate);
 
 			const auto LocalPlayer = GetWorld()->GetFirstLocalPlayerFromController();
@@ -293,16 +273,6 @@ void AMultiplayerPluginCharacter::OnJoinSessionComplete(FName SessionName, EOnJo
 	FString Address;
 	if (OnlineSessionInterface->GetResolvedConnectString(NAME_GameSession, Address))
 	{
-		if (GEngine)
-		{
-			GEngine->AddOnScreenDebugMessage(
-				-1,
-				15.f,
-				FColor::Yellow,
-				FString::Printf(TEXT("Connect string: %s"), *Address)
-			);
-		}
-
 		APlayerController* PlayerController = GetGameInstance()->GetFirstLocalPlayerController();
 		if (PlayerController)
 		{

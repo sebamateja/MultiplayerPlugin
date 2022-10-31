@@ -1,0 +1,62 @@
+[
+	{
+		"file": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\MultiplayerSessions.Build.cs",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\.vscode\\compileCommands_Default\\MultiplayerSessions.9.rsp\"",
+		"directory": "G:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\Private\\MultiplayerSessions.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\.vscode\\compileCommands_Default\\MultiplayerSessions.9.rsp\"",
+		"directory": "G:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\Private\\MultiplayerSessionsSubsystem.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\.vscode\\compileCommands_Default\\MultiplayerSessions.9.rsp\"",
+		"directory": "G:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\Public\\MultiplayerSessions.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\.vscode\\compileCommands_Default\\MultiplayerSessions.9.rsp\"",
+		"directory": "G:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\Public\\MultiplayerSessionsSubsystem.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\.vscode\\compileCommands_Default\\MultiplayerSessions.9.rsp\"",
+		"directory": "G:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Source\\MultiplayerPlugin\\MultiplayerPlugin.Build.cs",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\.vscode\\compileCommands_Default\\MultiplayerPlugin.208.rsp\"",
+		"directory": "G:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Source\\MultiplayerPlugin\\MultiplayerPlugin.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\.vscode\\compileCommands_Default\\MultiplayerPlugin.208.rsp\"",
+		"directory": "G:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Source\\MultiplayerPlugin\\MultiplayerPlugin.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\.vscode\\compileCommands_Default\\MultiplayerPlugin.208.rsp\"",
+		"directory": "G:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Source\\MultiplayerPlugin\\MultiplayerPluginCharacter.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\.vscode\\compileCommands_Default\\MultiplayerPlugin.208.rsp\"",
+		"directory": "G:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Source\\MultiplayerPlugin\\MultiplayerPluginCharacter.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\.vscode\\compileCommands_Default\\MultiplayerPlugin.208.rsp\"",
+		"directory": "G:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Source\\MultiplayerPlugin\\MultiplayerPluginGameMode.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\.vscode\\compileCommands_Default\\MultiplayerPlugin.208.rsp\"",
+		"directory": "G:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Source\\MultiplayerPlugin\\MultiplayerPluginGameMode.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\.vscode\\compileCommands_Default\\MultiplayerPlugin.208.rsp\"",
+		"directory": "G:\\UnrealEngine\\UE_5.0\\Engine\\Source"
+	}
+]

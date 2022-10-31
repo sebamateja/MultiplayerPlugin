@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "MultiplayerPluginEditor Editor Win64 Development (MultiplayerPlugin)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\.vscode\\compileCommands_MultiplayerPlugin.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
