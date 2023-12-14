@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch MultiplayerPlugin (Debug)",
+			"request": "launch",
+			"program": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "MultiplayerPlugin Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "G:\\UnrealEngine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "G:\\UnrealEngine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch MultiplayerPlugin (DebugGame)",
+			"request": "launch",
+			"program": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "MultiplayerPlugin Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "G:\\UnrealEngine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "G:\\UnrealEngine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch MultiplayerPlugin (Development)",
+			"request": "launch",
+			"program": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "MultiplayerPlugin Win64 Development Build",
+			"args": [
+			],
+			"cwd": "G:\\UnrealEngine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "G:\\UnrealEngine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch MultiplayerPlugin (Test)",
+			"request": "launch",
+			"program": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "MultiplayerPlugin Win64 Test Build",
+			"args": [
+			],
+			"cwd": "G:\\UnrealEngine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "G:\\UnrealEngine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch MultiplayerPlugin (Shipping)",
+			"request": "launch",
+			"program": "F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "MultiplayerPlugin Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "G:\\UnrealEngine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "G:\\UnrealEngine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch MultiplayerPluginEditor (Debug)",
+			"request": "launch",
+			"program": "G:\\UnrealEngine\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "MultiplayerPluginEditor Win64 Debug Build",
+			"args": [
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject"
+			],
+			"cwd": "G:\\UnrealEngine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "G:\\UnrealEngine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch MultiplayerPluginEditor (DebugGame)",
+			"request": "launch",
+			"program": "G:\\UnrealEngine\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "MultiplayerPluginEditor Win64 DebugGame Build",
+			"args": [
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject"
+			],
+			"cwd": "G:\\UnrealEngine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "G:\\UnrealEngine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch MultiplayerPluginEditor (Development)",
+			"request": "launch",
+			"program": "G:\\UnrealEngine\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "MultiplayerPluginEditor Win64 Development Build",
+			"args": [
+				"F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject"
+			],
+			"cwd": "G:\\UnrealEngine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "G:\\UnrealEngine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "G:\\UnrealEngine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "G:\\UnrealEngine\\UE_5.0\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=F:\\OneDrive\\Dokumenty\\Unreal Projects\\MultiplayerPlugin 5.0\\MultiplayerPlugin.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "G:\\UnrealEngine\\UE_5.0"
+		}
+	]
+}
